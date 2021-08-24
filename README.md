@@ -8,7 +8,7 @@ https://drive.google.com/drive/folders/1wDqLb4nBpeusDvtjqV6GJejKEAgE9vtN?usp=sha
 1. download the entire folder
 2. go to the folder where requirements.txt is present through termnal
 3. write - 'python3 -m venv venv' - to create virtual environment
-4. activate the venv by (linux) 'source ./venv/bin/activate'
+4. activate the venv by (linux) 'source ./venv/bin/activate';
 for windows, go to venv/Scripts and run the command - 'activate'
 5. you should see (venv) in the terminal or cmd which means it is activated
 6. come to the same folder where requirements.txt is present. install dependecies by -
