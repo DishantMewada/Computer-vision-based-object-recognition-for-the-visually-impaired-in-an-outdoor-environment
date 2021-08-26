@@ -5,8 +5,8 @@ from gtts import gTTS
 import os
 
 def authenticator():
-    apikey = 'edTl8wcYVjOo_rOhItZIpUhyBqkAEVn68FcrY7mt0_Sa'
-    url = 'https://api.eu-gb.text-to-speech.watson.cloud.ibm.com/instances/2b6088c1-c29e-48c9-93a1-ac535c1b8a98'
+    apikey = #write your ibm api key here'
+    url = 'ibm url here'
     # Setup Service
     authenticator = IAMAuthenticator(apikey)
     tts = TextToSpeechV1(authenticator=authenticator)
