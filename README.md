@@ -22,4 +22,6 @@ if requirements.txt throws error
 
 pip3 install jupyter ibm-watson tensorflow-gpu==2.5.0 tf-models-official matplotlib Cython gtts playsound
 
+if you get error installing pycocotools on windows, first install latest visual c++ build tools.
+
 cd ./models/research && python setup.py build && python setup.py install
